@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  font-family: "PT Serif", serif;
+  letter-spacing: 2px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+  margin-top: 13%;
+  background-color: rgba(240, 248, 255, 15%);
+  border: 1px solid rgba(240, 248, 255, 0.2);
+  box-shadow: 0px 0px 10px 3px rgba(240, 248, 255, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.weatherIcon {
+  width: 150px;
+  padding: 15px;
+
+  margin: 5px;
+}
+
+.city {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px;
+  color: #eeefe7;
+  text-shadow: 0 0 2px black;
+}
+
+.mainWeather {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 20px;
+  color: #eeefe7;
+  text-shadow: 0 0 2px black;
+}
+
+.descriptionDiv {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 3rem;
+  max-height: 3rem;
+}
+
+.mainWeatherDescription {
+  font-size: 1rem;
+  /* margin: 2px; */
+  color: #eeefe7;
+  text-shadow: 0 0 2px black;
+}
+
+#provinces {
+  height: 20px;
+  margin: 30px;
+  border: 1px solid #eeefe7;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+#provinces:focus-visible {
+  outline: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .card {
+    margin-top: 5%;
+  }
+}

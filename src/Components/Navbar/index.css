@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+.Navbar {
+  margin-top: 20px;
+  height: 90px;
+}
+
+.NavbarTitle {
+  color: #eeefe7;
+  padding: 5px;
+  border-bottom: 2px solid #eeefe7;
+  font-size: 1.8rem;
+  font-family: "PT Serif", serif;
+  text-shadow: 0 0 2px black;
+  letter-spacing: 2px;
+}
